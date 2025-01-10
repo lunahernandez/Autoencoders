@@ -28,7 +28,7 @@ Autoencoders/
 
 | **Tarea**               | **Tamaño de Entrada** | **Noise Factor** | **Learning Rate (lr)** | **Weight Decay** | **Pérdida Final (Training)** | **Pérdida Final (Validation)** | **Visualización de Resultados**          |
 |--------------------------|-----------------------|------------------|------------------------|------------------|-----------------------------|--------------------------------|------------------------------------------|
-| Eliminación de Ruido     | 28x28 (original)     | 0.5              | 0.001                 | 1e-05           | 0.0114                      | 0.00007                        | ![Autoencoders](7x7.png)            |
+| Eliminación de Ruido     | 28x28 (original)     | 0.5              | 0.001                 | 1e-05           | 0.0114                      | 0.00007                        | ![Autoencoders](28x28_1.png)            |
 | Eliminación de Ruido     | 28x28 (original)     | 0.7              | 0.001                 | 1e-05           | 0.0178                      | 0.00012                        | ![Autoencoders](28x28_2.png)            |
 | Eliminación de Ruido     | 28x28 (original)     | 0.9              | 0.001                 | 0.0001          | 0.0269                      | 0.00016                        | ![Autoencoders](28x28_3.png)            |
 
