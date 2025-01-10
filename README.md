@@ -45,7 +45,11 @@ Autoencoders/
 
 ## **Conclusiones**
 
-Este proyecto demostró la eficacia y versatilidad de los autoencoders en dos tareas fundamentales: eliminación de ruido y superresolución. En la eliminación de ruido, el modelo logró reconstruir imágenes ruidosas con alta fidelidad, eliminando de manera efectiva el ruido gaussiano y preservando las características esenciales. Para la superresolución, se observó una clara dependencia del tamaño de las imágenes de entrada: las reconstrucciones generadas a partir de entradas de 7x7 capturaron las estructuras generales, pero carecieron de precisión en los detalles finos. Por otro lado, las entradas de 14x14 permitieron reconstrucciones mucho más detalladas y fieles a las imágenes originales, demostrando que un mayor tamaño inicial mejora significativamente el desempeño.
+Este proyecto demostró la eficacia y versatilidad de los autoencoders en dos tareas fundamentales: eliminación de ruido y superresolución. 
+
+En la eliminación de ruido, el modelo logró reconstruir imágenes ruidosas con alta fidelidad, eliminando de manera efectiva el ruido gaussiano y preservando las características esenciales. 
+
+Para la superresolución, se observó una clara dependencia del tamaño de las imágenes de entrada: las reconstrucciones generadas a partir de entradas de 7x7 capturaron las estructuras generales, pero carecieron de precisión en los detalles finos. Por otro lado, las entradas de 14x14 permitieron reconstrucciones mucho más detalladas y fieles a las imágenes originales, demostrando que un mayor tamaño inicial mejora significativamente el desempeño.
 
 Los resultados obtenidos destacan la importancia de una adecuada configuración del modelo y la selección de los hiperparámetros, como el tamaño de entrada, la tasa de aprendizaje y la regularización. A través de visualizaciones detalladas, se evidenció la capacidad de los autoencoders para aprender representaciones latentes útiles y generar reconstrucciones de alta calidad. Este trabajo resalta el potencial de estas redes neuronales en tareas de procesamiento de imágenes, proporcionando un enfoque práctico para explorar aplicaciones reales como la mejora de calidad visual y la limpieza de datos.
 
